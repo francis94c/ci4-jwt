@@ -75,7 +75,7 @@ class JWT
   public function __construct(?object $config = null)
   {
     if (!$config) $this->init($config);
-    helper("base64");
+    helper("Francis94c\\JWT\\Helpers\\base64");
   }
 
   /**
